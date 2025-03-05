@@ -1,0 +1,7 @@
+From Microsoft Learn.
+
+GSM - when to use a library.
+Good code | Save time | Maintenance
+
+Consider when choosing a library.
+Size (too big might not be good if you have limited resources) | Licence | Active maintenance
