@@ -5,3 +5,20 @@ Good code | Save time | Maintenance
 
 Consider when choosing a library.
 Size (too big might not be good if you have limited resources) | Licence | Active maintenance
+
+Semantic versioning: x.y.z
+x => Major version change (Might need to change your codebase)
+y => Minor version change (Things'll still work)
+z => Patch version change (bug fixes and stuff)
+
+Use boundary notation to specify version ranges
+1.0 means x >= 1.0
+(1.0,) means x > 1.0
+[1.0] means, x == 1.0
+(,1.0) means x < 1.0 - you get?
+
+Use asterisk to denote major/minor/patch
+6.0.* -> Upgrade me to latest 6.0.x patch. 5.* use 5.x version.
+
+Recommendation: Install specific version instead of using above notations.
+
