@@ -1,5 +1,8 @@
 From Microsoft Learn.
 
+Logging and Tracing - better than debugging
+(Imagine if you are debugging an API that get's called often. You don't want to add breakpoints)
+
 GSM - when to use a library.
 Good code | Save time | Maintenance
 
